@@ -30,4 +30,3 @@ ________________________________________
 💬 In One Line:
 "GreenTrust lets people sell and buy clean energy locally using blockchain, while AI gives smart advice to save and earn better."
 ________________________________________
-Let me know if you want a quick diagram or flow for your hackathon presentation — I can help make that too!
