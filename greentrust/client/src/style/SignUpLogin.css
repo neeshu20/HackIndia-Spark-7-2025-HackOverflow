@@ -1,0 +1,84 @@
+.signup-login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .signup-login-page h2 {
+    color: #004d40;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .signup-login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 77, 64, 0.1);
+    min-width: 300px;
+  }
+  
+  .signup-login-page input {
+    padding: 10px 15px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .signup-login-page input:focus {
+    outline: none;
+    border-color: #00796b;
+    box-shadow: 0 0 0 2px rgba(0, 121, 107, 0.2);
+  }
+  
+  .signup-login-page button {
+    padding: 12px;
+    background-color: #00796b;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-login-page button:hover {
+    background-color: #004d40;
+  }
+  
+  .toggle-link {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #00796b;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-link:hover {
+    color: #004d40;
+  }
+  
+  .wallet-link-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f6851b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .wallet-link-button:hover {
+    background-color: #e2761b;
+  }
+  

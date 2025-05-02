@@ -1,0 +1,21 @@
+.wallet-page {
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+  }
+  
+  .wallet-connect-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #f6851b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wallet-connect-btn:hover {
+    background-color: #e2761b;
+  }
+  

@@ -1,0 +1,35 @@
+.marketplace-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9fafb;
+  }
+  
+  .listing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .listing-card {
+    background-color: #ffffff;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+  }
+  
+  .listing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .filter-input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 999px;
+    width: 120px;
+    font-size: 0.875rem;
+  }
+  
